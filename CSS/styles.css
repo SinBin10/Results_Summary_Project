@@ -62,6 +62,30 @@ p {
 .card__body {
   padding: 0 3rem;
 }
-.summary {
+.text--bold {
   font-weight: bold;
+}
+.reaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.7rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  background: #fff6f5;
+}
+.reaction__text {
+  color: red;
+  margin-right: 55px;
+}
+.memory__text{
+  color:orange;
+  margin-right: 55px;
+}
+.verbal__text{
+  color: green;
+  margin-right: 55px;
+}
+.visual__text{
+  color: dodgerblue;
+  margin-right: 55px;
 }
