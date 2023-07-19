@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
   <body>
-    <div class="card">
+    <div class="container">
       <div class="card__header">
         <h3>Your Result</h3>
         <div class="card__header circle">
@@ -29,28 +29,46 @@
       <div class="card__body">
         <p class="text--bold">Summary</p>
         <div class="reaction">
-          <img src="icons/icon-reaction.svg" alt="A thunderbolt" />
-          <p class="reaction__text">Reaction</p>
-          <p class="marks--eighty"><strong>80</strong></p>
-          <p class="marks--hundred">/ 100</p>
+          <div class="flex-1">
+            <img src="icons/icon-reaction.svg" alt="A thunderbolt" />
+            <p class="reaction__text">Reaction</p>
+            <p></p>
+          </div>
+
+          <div class="flex-2">
+            <p class="marks--eighty"><strong>80</strong></p>
+            <p class="marks--hundred">/ 100</p>
+          </div>
         </div>
         <div class="reaction">
-          <img src="icons/icon-memory.svg" alt="A brain" />
-          <p class="memory__text">Memory</p>
-          <p class="marks--eighty"><strong>80</strong></p>
-          <p class="marks--hundred">/ 100</p>
+          <div class="flex-1">
+            <img src="icons/icon-memory.svg" alt="A brain" />
+            <p class="memory__text">Memory</p>
+          </div>
+          <div class="flex-2">
+            <p class="marks--eighty"><strong>92</strong></p>
+            <p class="marks--hundred">/ 100</p>
+          </div>
         </div>
         <div class="reaction">
-          <img src="icons/icon-verbal.svg" alt="A thunderbolt" />
-          <p class="verbal__text">Verbal</p>
-          <p class="marks--eighty"><strong>80</strong></p>
-          <p class="marks--hundred">/ 100</p>
+          <div class="flex-1">
+            <img src="icons/icon-verbal.svg" alt="A thunderbolt" />
+            <p class="verbal__text">Verbal</p>
+          </div>
+          <div class="flex-2">
+            <p class="marks--eighty"><strong>61</strong></p>
+            <p class="marks--hundred">/ 100</p>
+          </div>
         </div>
         <div class="reaction">
-          <img src="icons/icon-visual.svg" alt="An eye" />
-          <p class="visual__text">Visual</p>
-          <p class="marks--eighty"><strong>80</strong></p>
-          <p class="marks--hundred">/ 100</p>
+          <div class="flex-1">
+            <img src="icons/icon-visual.svg" alt="An eye" />
+            <p class="visual__text">Visual</p>
+          </div>
+          <div class="flex-2">
+            <p class="marks--eighty"><strong>72</strong></p>
+            <p class="marks--hundred">/ 100</p>
+          </div>
         </div>
         <button class="btn">Continue</button>
       </div>
